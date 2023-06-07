@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8c9cff;
+    height: 400px;
+    width: 390px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 20px;
+}
+
+.emp-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8c9cff;
+    height: 400px;
+    width: 390px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 20px;
+}
+
+.userId, .empId, .password{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    height: 18%;
+    width: 95%;
+}
+
+.login-btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn button{
+    background-color: #F775B6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 13pt;
+}
+
+
+label{
+    margin: 8px 0px 8px 0px;
+    font-family: 'Manrope', sans-serif;
+    font-size: large;
+    width: 200px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.user-login-form, .emp-login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDiv{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 20px;
+    width: 97%;
+    padding: 5px;
+}
+
+.inputDiv input{
+    width: 90%;
+    padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    margin-left: 5px;
+}
+
+input:focus{
+    outline: none;
+
+}
+
+.main-content-container{
+    display: flex;
+    background-image: url('../assets/bgImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin: 700px 20px 20px 20px;
+}
+
+.invisible-container{
+    height: 300px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+}
+
+.img-container{
+    display: flex;
+    width: 40%;
+    margin-left: 50px;
+}
+
+h1{
+    margin: 10px; 
+    font-family: 'Fredoka', sans-serif; 
+}
+
+h2{
+    margin: 10px 10px 50px 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-size: larger;
+    font-family: 'Manrope', sans-serif;
+}

@@ -1,0 +1,177 @@
+body {
+  background-color: #0a1627;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.btn-container {
+  display: flex;
+  margin: 10px;
+}
+.btn-container button {
+  margin: 10px;
+}
+
+.visible-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden-container {
+  display: none;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px;
+}
+
+h5 {
+  margin: 10px;
+}
+
+h2 {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+label {
+  font-family: "Dosis";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 20px;
+  /* line-height: 57px; */
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.proceedbtn {
+  margin-left: 20px;
+  box-sizing: border-box;
+  position: flex;
+  width: 189px;
+  height: 55px;
+  justify-content: center;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  /* line-height: 55px; */
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #d9d9d9;
+
+  position: 300px;
+  /* width: 226px;
+height: 82px;  */
+
+  background: rgba(24, 213, 254, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(11px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+label {
+  position: flex;
+  width: 546px;
+  height: 57px;
+  left: 158px;
+  top: 262px;
+
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 57px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.input {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+
+  color: #000000;
+  box-sizing: border-box;
+  margin-right: 5px;
+
+  position: flex;
+  width: 1080px;
+  height: 82px;
+
+  background: rgba(255, 255, 255, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(11px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+.proceedbtn {
+  box-sizing: border-box;
+  position: flex;
+  width: 226px;
+  height: 82px;
+
+  background: rgba(24, 213, 254, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(11px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+.h5 {
+  margin-top: 40px;
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+.btnyn {
+  box-sizing: border-box;
+  position: flex;
+  justify-content: center;
+  width: 226px;
+  height: 82px;
+
+  background: rgba(24, 213, 254, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(11px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+
+  color: #d9d9d9;
+  border-radius: 15px;
+}

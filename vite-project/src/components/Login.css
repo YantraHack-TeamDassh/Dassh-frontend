@@ -161,7 +161,7 @@ label {
   width: 226px;
   height: 82px;
 
-  background: rgba(24, 213, 254, 0.34);
+  background: #0f5770;
   border: 1px solid rgba(255, 255, 255, 0.29);
   backdrop-filter: blur(11px);
   /* Note: backdrop-filter has minimal browser support */

@@ -29,6 +29,14 @@ const Login = () => {
           PROCEED
         </button>
         <div className="visible-container">
+          <h5 className="h5">UPLOAD PHOTO</h5>
+          <div className="btn-container">
+            <button className="btnyn" onClick={() => {}}>
+              UPLOAD
+            </button>
+          </div>
+        </div>
+        <div className="visible-container">
           <h5 className="h5">Is the recieved product intact ?</h5>
           <div className="btn-container">
             <button className="btnyn">Yes</button>

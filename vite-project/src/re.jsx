@@ -1,12 +1,12 @@
-
-const imageFile = document.querySelector('#your-image-input').files[0];
+import ImageUploader from "./Upload";
+const imageFile = document.querySelector(ImageUploader).files[0];
 const reader = new FileReader();
 reader.onloadend = function () {
-  const base64Image = reader.result.split(',')[1];
-  fetch('http://localhost:8000', {
-    method: 'POST',
+  const base64Image = reader.result.split(",")[1];
+  fetch("http://localhost:8000", {
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({ image: base64Image }),
   })
@@ -16,7 +16,7 @@ reader.onloadend = function () {
       console.log(data);
     })
     .catch((error) => {
-      console.error('Error:', error);
+      console.error("Error:", error);
     });
 };
 

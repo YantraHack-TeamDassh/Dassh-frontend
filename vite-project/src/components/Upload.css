@@ -1,0 +1,18 @@
+.image-input {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  box-sizing: border-box;
+  margin-right: 5px;
+  position: flex;
+  width: 1080px;
+  height: 82px;
+  background: rgba(255, 255, 255, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  backdrop-filter: blur(11px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 15px;
+}

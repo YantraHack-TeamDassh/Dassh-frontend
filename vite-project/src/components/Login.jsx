@@ -1,4 +1,5 @@
 import "./Login.css";
+import ImageUploader from "./Upload";
 import { useState, useEffect } from "react";
 
 const Login = () => {
@@ -31,9 +32,7 @@ const Login = () => {
         <div className="visible-container">
           <h5 className="h5">UPLOAD PHOTO</h5>
           <div className="btn-container">
-            <button className="btnyn" onClick={() => {}}>
-              UPLOAD
-            </button>
+            <ImageUploader />
           </div>
         </div>
         <div className="visible-container">

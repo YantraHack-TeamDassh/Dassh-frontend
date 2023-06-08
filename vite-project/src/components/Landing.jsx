@@ -28,7 +28,7 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className="login-btn">
-                  <button>Login</button>
+                  <button className="colorbtn">Login</button>
                 </div>
               </div>
             </form>
@@ -54,7 +54,7 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className="login-btn">
-                  <button>Login</button>
+                  <button className="colorbtn">Login</button>
                 </div>
               </div>
             </form>

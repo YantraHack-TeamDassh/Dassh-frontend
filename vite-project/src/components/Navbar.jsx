@@ -129,7 +129,7 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
-                  color: "#000000a6",
+                  color: "#ffffff",
                   display: "block",
                   margin: "0 40px 0 40px",
                   fontWeight: "bolder",
@@ -148,7 +148,7 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
-                  color: "#000000a6",
+                  color: "#ffffff",
                   display: "block",
                   margin: "0 40px 0 40px",
                   fontWeight: "bolder",

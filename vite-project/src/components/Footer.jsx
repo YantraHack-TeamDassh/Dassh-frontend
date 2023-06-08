@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="socials">
           <div className="logo-text">
             {/* <img src={Logo} alt='logo' className='logo'/> */}
-            <h4>CHOICEMATRIX</h4>
+            <h4>DASSH</h4>
           </div>
           <div className="social-links">
             <FontAwesomeIcon
